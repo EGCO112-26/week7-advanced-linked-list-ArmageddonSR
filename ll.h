@@ -206,7 +206,7 @@ void printList( LLPtr currentPtr )
          printf( "%d %s --> ", currentPtr->data ,currentPtr->name);
          currentPtr = currentPtr->nextPtr;
       } // end while
-      printf( "%d %s --> NULL\n",currentPtr->data ,currentPtr->name);
+      printf( "%d %s -->NULL\n",currentPtr->data ,currentPtr->name);
       
 
    } // end else
@@ -229,7 +229,7 @@ void printList_Reverse(LLPtr currentPtr)
 
     // Traverse backwards using pPtr
     while (temp != NULL) {
-        printf("%d %s --> ", temp->data, temp->name);
+        printf("%d %s -->", temp->data, temp->name);
         temp = temp->pPtr;
     }
 
